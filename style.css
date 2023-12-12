@@ -1,0 +1,425 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+#antete 
+{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background: rgb(32, 83, 32);
+    box-shadow: 0px 3px 6px 4px rgb(71, 46, 46);
+    padding: 0px 5%;
+    line-height: 50px;
+
+}
+#antete h2
+{
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2px 0px;
+    color: rgb(247, 247, 247);
+    box-shadow: 0px 3px 0px 0px rgb(32, 17, 17);
+    padding: 2px 0px;
+}
+
+#menu
+{
+    float:right;
+    line-height: 0px 70px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+#menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#logo
+{
+    float:left;
+    width: 80px;
+    border-radius: 30px;
+}
+
+#link1
+{
+    background:black;
+    border-radius: 10px;
+    padding: 10px 5px !important;
+}
+
+#link1:hover
+{
+    background: rgb(3, 102, 24);
+}
+
+#link5
+{
+    background: black;
+    padding:10px 5px ;
+    border-radius: 10px;
+}
+
+#link5:hover
+{
+    background: rgb(3, 102, 24);
+}
+
+#link4
+{
+    background: black;
+    padding:10px 5px ;
+    border-radius: 10px;
+}
+
+#link4:hover
+{
+    background: rgb(3, 102, 24);
+}
+
+#link3
+{
+    background: black;
+    padding:10px 5px ;
+    border-radius: 10px;
+}
+
+#link3:hover
+{
+    background: rgb(3, 102, 24);
+}
+
+#link2
+{
+    background: black;
+    padding:10px 5px ;
+    border-radius: 10px;
+}
+
+#link2:hover
+{
+    background: rgb(3, 102, 24);
+}
+
+#link6
+{
+    background: black;
+    padding:10px 5px ;
+    border-radius: 10px;
+}
+
+#link6:hover
+{
+    background: rgb(3, 102, 24);
+}
+
+#pied
+{
+    width: 100%;
+    background: black;
+    float:left;
+    margin-top: -5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px; 
+    padding:40px 5px;
+}
+
+#pied p
+{
+ color: green;
+ float: left;
+ margin: 10px 10px;
+
+}
+
+#pied h2
+{
+    color:green;
+    float: left;
+    width: 100%;
+    margin: 10px 5px;
+}
+
+#pied a
+{
+    float: left;
+    color:green;
+    width: 100%;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+
+#link20
+{
+    float: left;
+    background: green ;
+    color: black !important;
+    font-weight: bold;
+    border-radius : 10px;
+    padding: 3px 5px;
+}
+#link20:hover
+{
+    background: white ;
+}
+
+#banner
+{ 
+float: left;
+width: 100%;
+background-image: url("../images/IMG_0048.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center ;
+padding: 70px 20%;
+text-align: center;
+background-color: rgba(0,0,0,0.6);
+background-blend-mode: multiply;
+}
+#banner h1
+{
+color: white;
+text-transform: uppercase;
+}
+
+#banner p
+{
+    color: white;
+    font-size: 20px;
+}
+
+#text-content
+{
+    width: 100%;
+    float: left;
+    padding: 50px 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px; 
+
+}
+#text-content img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+ion-icon 
+{
+    margin-bottom: -2px ;
+    
+}
+
+#banner-h
+{float: left;
+width: 100%;
+background-image: url("../images/bb.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position:top ;
+padding: 70px 20%;
+text-align: center;
+background-color: rgba(0,0,0,0.6);
+background-blend-mode: multiply;
+}
+
+#banner-h h1
+{
+color: white !important;
+text-transform: uppercase;
+}
+
+#banner-h p
+{
+    color: white;
+    font-size: 20px;
+}
+#contact-form
+{
+    float: left;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-top: 30px;
+   
+}
+
+
+input
+{
+   float: left;
+    width: 100%;
+    margin: 7px 10px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+textarea
+{
+    width: 100%;
+    float: left;
+    margin: 7px 10px;
+    padding: 15px 5px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+button
+{
+    width: 100%;
+    float: left;
+    margin: 7px 10px;
+    padding: 7px 1px;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+button:hover
+{
+    background: black;
+}
+
+#blog-container
+{
+    float: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 50px 5%;
+}
+#blog-container img
+{
+    float: left;
+    width: 100%;
+}
+#blog-container p
+{
+    float: left;
+    width: 100%;
+    font-weight: 30px;
+}
+#blog-container span 
+{
+    float: left;
+    font-weight: bold;
+     color:red;
+     width: 100%;
+     margin-top: 10px;
+}
+#blog-container h1
+{
+    float: left;
+    font-size: 20px;
+    width: 100%;
+}
+#blog-container a
+{
+   
+    text-decoration: none;
+    font-weight: bold;
+    background-color: red;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: white;
+}
+#blog-container a:hover
+{
+    background: black;
+}
+
+#container-service
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    text-align: center;
+    padding: 70px 5%;
+}
+#form-service
+{
+border: 1px solid rgba(0,0,0,0.4);
+border-radius: 10px;
+padding: 30px 10px;
+background: rgba(0,0,0,0.2);
+}
+#form-service h2
+{
+    text-transform: uppercase;
+}
+#banner-home
+{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    background-image: url("../images/ns4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.7);
+}
+#home-content
+{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#home-content h2
+{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(177, 169, 169);
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0px ;
+}
+#home-content p
+{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(177, 169, 169);
+    font-size: 17px;
+    line-height: 25px;
+}
+#home-content a
+{
+    float: left;
+    color:green;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border: 1px solid rgb(177, 169, 169);
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+#home-content a:hover
+{
+    background: black;
+}
+
+#blog
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
